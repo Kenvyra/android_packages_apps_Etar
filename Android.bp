@@ -41,6 +41,8 @@ android_app {
         "org.calyxos.etar",
     ],
 
+    kotlincflags: ["-Xjvm-default=enable"],
+
     required: [
         "org.calyxos.etar.allowlist"
     ],
