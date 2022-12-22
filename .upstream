@@ -1,0 +1,5 @@
+{
+    "name": "calyx",
+    "fetch": "https://github.com/CalyxOS/platform_packages_apps_Etar",
+    "revision": "refs/heads/android13"
+}
