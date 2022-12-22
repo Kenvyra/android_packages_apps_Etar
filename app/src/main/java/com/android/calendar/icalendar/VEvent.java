@@ -88,7 +88,7 @@ public class VEvent {
         mAttendees = new LinkedList<Attendee>();
 
         // Generate and add a unique identifier to this event - iCal requisite
-        addProperty(UID , UUID.randomUUID().toString() + "@org.calyxos.etar");
+        addProperty(UID , UUID.randomUUID().toString() + "@org.kenvyra.etar");
         addTimeStamp();
     }
 

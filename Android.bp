@@ -38,13 +38,13 @@ android_app {
 
     aaptflags: [
         "--rename-manifest-package",
-        "org.calyxos.etar",
+        "org.kenvyra.etar",
     ],
 
     kotlincflags: ["-Xjvm-default=enable"],
 
     required: [
-        "org.calyxos.etar.allowlist"
+        "org.kenvyra.etar.allowlist"
     ],
 }
 
@@ -68,9 +68,9 @@ android_test {
 }
 
 prebuilt_etc {
-    name: "org.calyxos.etar.allowlist",
+    name: "org.kenvyra.etar.allowlist",
     product_specific: true,
     sub_dir: "sysconfig",
-    src: "org.calyxos.etar.allowlist.xml",
+    src: "org.kenvyra.etar.allowlist.xml",
     filename_from_src: true,
 }

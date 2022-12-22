@@ -17,7 +17,7 @@ android {
         targetSdk 33
         versionCode 32
         versionName "1.0.30"
-        applicationId "org.calyxos.etar"
+        applicationId "org.kenvyra.etar"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
